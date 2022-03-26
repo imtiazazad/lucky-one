@@ -3,54 +3,63 @@
       "id": "623ee0ab60a088e8e49dd16a",
       "price": 35,
       "name": "Wyze Cam v3 with Color Night Vision",
+      "img": "https://m.media-amazon.com/images/I/61Jqml2u9qL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0abd06ca4452e54a32c",
       "price": 15,
       "name": "Kasa Smart Light Switch HS200",
+      "img": "https://m.media-amazon.com/images/I/71ywy0tUZqL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0ab1eb775dddee98d3c",
       "price": 249,
       "name": "iRobot Roomba 694 Robot Vacuum-Wi-Fi Connectivity",
+      "img": "https://m.media-amazon.com/images/I/71kscrE0ClL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0ab4bbc50934fc3f370",
       "price": 67,
       "name": "Philips Hue Dusk-to-Dawn Outdoor Motion Sensor for Smart Home",
+      "img": "https://m.media-amazon.com/images/I/717ig6luDDL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0ab5bed292cc10eb800",
       "price": 43,
-      "name": "DYMO Label Maker LabelManager 160 Portable Label Maker",
+      "name": "Philips Hue Smart Hub",
+      "img": "https://m.media-amazon.com/images/I/61lp3pq-sNL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0abb1cff1532be8c484",
       "price": 15,
       "name": "TALK WORKS iPhone Charger Lightning Cable 10ft",
+      "img": "https://m.media-amazon.com/images/I/61L06h5mp2L._SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0abfe34ed135616a8f7",
       "price": 73,
       "name": "Roku Streaming Stick+",
+      "img": "https://m.media-amazon.com/images/I/71gBY-gGBwL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0abd66d1a96b00ca3f6",
       "price": 256,
       "name": "Google Nest Learning Thermostat",
+      "img": "https://m.media-amazon.com/images/I/71GIRQHecXL._AC_SL1500_.jpg",
       "Quantity": 0
     },
     {
       "id": "623ee0abfc5472c034e5ade4",
       "price": 261,
       "name": "Rachio 3 Smart Sprinkler Controller",
+      "img": "https://m.media-amazon.com/images/I/71IkX3Iou+L._AC_SL1500_.jpg",
       "Quantity": 0
     }
   ]
