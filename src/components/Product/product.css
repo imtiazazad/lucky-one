@@ -16,6 +16,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding-left: 10px;
+    margin: 100px 50px;
 }
 .product-name{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -39,7 +40,18 @@ h4{
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn p{
+    margin-right: 10px;
 }
 .btn:hover{
     background-color: rgb(228, 64, 86);
+}
+@media only screen and (max-width: 700px) {
+    .products-container{
+    grid-template-columns: repeat(1, 1fr);
+    }
 }
