@@ -1,5 +1,5 @@
 # Linkkify website:
-get it on: https://iridescent-granita-f801bd.netlify.app/
+Get it on: https://iridescent-taffy-9e36dc.netlify.app/
 
 # Getting Started with Create React App
 

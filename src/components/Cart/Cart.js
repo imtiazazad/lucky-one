@@ -5,7 +5,7 @@ const Cart = ({cart, allreset, random, randomCart}) => {
     console.log(randomCart);
     
     return (
-        <div>
+        <div className='cart'>
             {
                 cart.map(product => (
                     <div className='cart'>
@@ -14,7 +14,7 @@ const Cart = ({cart, allreset, random, randomCart}) => {
                 ) )
             }
             <div>
-                <h3>Random Product: {randomCart.name}</h3>
+            <h3>Random Product: {randomCart.name}</h3>
             <button onClick={()=>random(cart)}>Choose 1 for me </button>
             <button onClick={allreset} >Choose Again </button>
             </div>
