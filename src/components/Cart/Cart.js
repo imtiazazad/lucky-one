@@ -1,11 +1,8 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = (props) => {
-
-    const {cart} = props;
-    const {chooseAgain} = props;
-    
+const Cart = ({cart, allreset, random, randomCart}) => {
+    console.log(randomCart);
     
     return (
         <div>
@@ -15,14 +12,12 @@ const Cart = (props) => {
                         <h3>Name: {product.name}</h3>
                     </div>
                 ) )
-                
             }
             <div>
-            
-            <button onClick={chooseAgain()}>Choose Again </button>
-
+                <h3>Random Product: {randomCart.name}</h3>
+            <button onClick={()=>random(cart)}>Choose 1 for me </button>
+            <button onClick={allreset} >Choose Again </button>
             </div>
-            
         </div>
     );
 };

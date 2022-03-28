@@ -23,9 +23,8 @@ const Product = (props) => {
             {/* <button onClick={() => handleAddToCart(product)} className='btn'><p>Add To Cart</p>
             <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button> */}
-
-        </div>
         
+        </div>
     );
 };
 

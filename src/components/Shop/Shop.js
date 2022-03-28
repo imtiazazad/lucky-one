@@ -6,12 +6,24 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [randomCart, setRandomCart] = useState ([]);
 
     useEffect( () =>{
         fetch('products.json')
         .then( res => res.json())
         .then(data => setProducts(data))
     },[])
+
+    const allreset = () => {
+        setCart([])
+    }
+
+    const random = (cart) =>{
+        console.log(cart);
+        const rand = Math.floor(Math.random()* cart.length)
+        setRandomCart(cart[rand])
+        console.log(rand);
+    }
 
     const addToCart = (product) =>{
         
@@ -28,10 +40,6 @@ const Shop = () => {
         
        }
        
-       const chooseAgain  = ()  => {
-        setCart([])
-       }
-
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -44,10 +52,9 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart} chooseAgain={chooseAgain}></Cart>
+                <Cart  key={cart.id} cart={cart} random={random} randomCart={randomCart} allreset={allreset} ></Cart>
             </div>
         </div>
-
     );
 };
 
